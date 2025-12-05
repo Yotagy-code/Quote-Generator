@@ -5,7 +5,8 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    /* Changed to Inter as a highly compatible, modern sans-serif */
+    font-family: 'Inter', sans-serif; 
     background-color: #f9fafb;
     min-height: 100vh;
 }
@@ -25,7 +26,7 @@ body {
 
 .title {
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 500;
     color: #1f2937;
     text-align: center;
     margin-bottom: 1.5rem;
@@ -48,6 +49,7 @@ body {
     font-size: 1rem;
     line-height: 1.625;
     margin-bottom: 0.75rem;
+    font-weight: 500;
 }
 
 .quote-author {
@@ -103,4 +105,10 @@ body {
         font-size: 1.125rem;
         margin-bottom: 1rem;
     }
+}
+    .quote-text {
+        font-size: 1.125rem;
+        margin-bottom: 1rem;
+    }
+
 }
